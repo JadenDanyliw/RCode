@@ -7,7 +7,7 @@ The function density.gain.model(table) requires the specification of the table p
 
 The output will print the following to the R console:
 
-Estimated Density = ( log(gain) - beta0 ) / ( beta1 )
+> Estimated Density = ( log(gain) - beta0 ) / ( beta1 )
 
 Where beta0 and beta1 are the estimated regression coefficients from the linear regression model x = beta0 + beta1 * log(g) + epsilon. These values are reported to three significant digits. 
 
@@ -16,4 +16,5 @@ An example use of this function is as follows, using the provided data analyzed 
 > table = read.csv("polyethylene_experiment.csv")
 
 > density.gain.model(table)
-### Estimated Density = ( log(gain) - 6 ) / ( -4.61 
+
+> # Estimated Density = ( log(gain) - 6 ) / ( -4.61 
