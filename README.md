@@ -13,6 +13,6 @@ Where beta0 and beta1 are the estimated regression coefficients from the linear 
 
 An example use of this function is as follows, using the provided data analyzed in "Calibration Procedure for Snow Gauges". In this example, the experiment results are in the form of a .csv file in the same directory as the R file, however an .xlsx or .txt file can be used, among others provided the data meets the specifications above.
 
-table = read.csv("polyethylene_experiment.csv")
-density.gain.model(table)
-> Estimated Density = ( log(gain) - 6 ) / ( -4.61 
+> table = read.csv("polyethylene_experiment.csv")
+> density.gain.model(table)
+# Estimated Density = ( log(gain) - 6 ) / ( -4.61 
