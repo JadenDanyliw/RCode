@@ -17,4 +17,4 @@ An example use of this function is as follows, using the provided data analyzed 
 
 > density.gain.model(table)
 
-> # Estimated Density = ( log(gain) - 6 ) / ( -4.61 
+>> Estimated Density = ( log(gain) - 6 ) / ( -4.61 )
