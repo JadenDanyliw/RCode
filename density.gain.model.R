@@ -21,3 +21,11 @@ density.gain.model = function(table){
   cat("\n Estimated Density = ( log(gain) -", 
       beta0.hat, ") / (", beta1.hat, ")\n ")
 }
+
+# Code to estimate the conversion function based on supplied data in the file
+# "calibrationrun.xlsx" as instructed in Section 4.3
+install.packages("readxl")
+library("readxl")
+table = read_excel("calibrationrun.xlsx")
+table = as.data.frame(table)
+density.gain.model(table)
